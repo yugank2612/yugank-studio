@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+client_secret*.json
+credentials.json
+token.json
+token.pickle
+*.db
+*.sqlite
+node_modules/
+ai-studio/.next/
+ai-studio/out/
+ai-studio/coverage/
+.wrangler/
+.DS_Store
+Thumbs.db
