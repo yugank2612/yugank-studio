@@ -53,3 +53,13 @@ The `ai-studio/` directory retains its upstream MIT license and attribution. See
 ## Keep credentials private
 
 Never commit API keys, OAuth tokens, passwords, personal videos, or audio files to GitHub.
+
+### Agnes API access
+
+YUGANK Studio uses Agnes AI for scene generation.
+
+- [AgnesAI-Models on GitHub](https://github.com/AgnesAI-Labs/AgnesAI-Models) — official model catalog and API examples.
+- [Agnes AI API platform](https://platform.agnes-ai.com/) — check API access and account options.
+- [Agnes AI developer docs](https://agnes-ai.com/doc/overview) — setup and API documentation.
+
+API access, pricing, quotas, and model availability depend on the provider and may change. Never post your API key on GitHub.
