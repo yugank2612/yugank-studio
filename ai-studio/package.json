@@ -1,0 +1,61 @@
+{
+  "name": "yugank-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "YUGANK Studio: a browser-based AI scene generator and video editor.",
+  "license": "MIT",
+  "author": "lcy362",
+  "homepage": "https://video.lichuanyang.top/en/studio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcy362/free-short-video-studio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lcy362/free-short-video-studio/issues"
+  },
+  "keywords": [
+    "ai-video-generator",
+    "text-to-video",
+    "ai-video",
+    "video-generator",
+    "free",
+    "browser",
+    "ffmpeg-wasm",
+    "nextjs"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "next": "^14.2.35",
+    "next-intl": "^3.22.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/coverage-v8": "^2.1.9",
+    "autoprefixer": "^10.4.19",
+    "jsdom": "^25.0.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.4.0",
+    "vitest": "^2.1.9",
+    "wrangler": "^4.111.0"
+  }
+}
+
