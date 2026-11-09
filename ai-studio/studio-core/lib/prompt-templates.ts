@@ -10,11 +10,22 @@ const STYLE_DESCRIPTIONS: Record<string, string> = {
   anime: 'anime style, vibrant colors, cel shading, expressive characters',
   documentary: 'documentary footage style, natural lighting, observational camera, authentic atmosphere',
   fantasy: 'fantasy art style, magical atmosphere, ethereal lighting, imaginative surreal elements',
+  '3d_animation': 'polished 3D animation, expressive modeled characters, cinematic depth, soft global illumination',
+  watercolor: 'watercolor illustration, visible paper texture, soft pigment edges, delicate hand-painted color',
+  paper_cutout: 'layered paper cutout animation, tactile paper fibers, crisp shapes, gentle cast shadows',
+  claymation: 'handcrafted claymation, tactile sculpted characters, charming stop-motion imperfections, studio lighting',
+  pixel_art: 'detailed pixel art, deliberate pixel clusters, limited retro palette, smooth pixel-art animation',
+  comic_book: 'dynamic comic-book illustration, bold ink outlines, halftone texture, dramatic graphic composition',
+  minimalist_motion: 'minimalist motion graphics, clean geometric shapes, restrained palette, elegant transitions',
+  isometric: 'isometric 3D illustration, precise 30-degree perspective, clean miniature world, soft shadows',
+  line_art: 'expressive hand-drawn line art, clean ink strokes, subtle colored accents, animated sketch feeling',
+  vintage_film: 'vintage 1970s film look, warm faded colors, soft grain, gentle halation, nostalgic framing',
 };
 
 /** 语言名称映射（让 LLM 用对应语言写旁白） */
 const LOCALE_LANG: Record<string, string> = {
   zh: '简体中文',
+  hi: 'Hindi written naturally in Devanagari script',
   en: 'English',
   ru: 'Русский',
   ja: '日本語',

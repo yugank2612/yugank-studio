@@ -9,7 +9,7 @@ A browser-based short-video creator adapted from [FreeShortVideoStudio](https://
 3. Open `http://localhost:3000`.
 4. Add your own Agnes API key in the key panel. The key is kept in browser local storage. Text prompts and generation requests go to Agnes; generated files are stitched locally by FFmpeg.wasm.
 
-Production static output: `pnpm build` creates `out/` for Cloudflare Pages.
+Production static output: `pnpm build` copies the repository's `local-editor/` into `public/local-editor/` and creates `out/` for Cloudflare Pages. In Cloudflare Pages, use this directory as the project root and `pnpm build` as the build command.
 
 ## Real limits
 

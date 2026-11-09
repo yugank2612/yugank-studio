@@ -115,6 +115,16 @@ export const STYLE_OPTIONS = [
   'anime',
   'documentary',
   'fantasy',
+  '3d_animation',
+  'watercolor',
+  'paper_cutout',
+  'claymation',
+  'pixel_art',
+  'comic_book',
+  'minimalist_motion',
+  'isometric',
+  'line_art',
+  'vintage_film',
 ] as const;
 
 export type StudioStyle = (typeof STYLE_OPTIONS)[number];
