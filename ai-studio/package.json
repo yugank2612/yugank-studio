@@ -5,13 +5,13 @@
   "description": "YUGANK Studio: a browser-based AI scene generator and video editor.",
   "license": "MIT",
   "author": "lcy362",
-  "homepage": "https://video.lichuanyang.top/en/studio",
+  "homepage": "https://yugank-studio-github2612.pages.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lcy362/free-short-video-studio.git"
+    "url": "git+https://github.com/yugank2612/yugank-studio.git"
   },
   "bugs": {
-    "url": "https://github.com/lcy362/free-short-video-studio/issues"
+    "url": "https://github.com/yugank2612/yugank-studio/issues"
   },
   "keywords": [
     "ai-video-generator",
@@ -25,7 +25,7 @@
   ],
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/prepare-local-editor.mjs && next build",
     "start": "next start",
     "test": "vitest run",
     "test:watch": "vitest",
